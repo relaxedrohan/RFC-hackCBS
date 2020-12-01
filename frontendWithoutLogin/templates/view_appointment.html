@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+
+
+<!-- Mirrored from radixtouch.in/templates/admin/redstar/source/dark/view_appointment.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Oct 2019 18:01:23 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="Responsive Admin Template" />
+	<meta name="author" content="RedstarHospital" />
+	<title>MedId</title>
+	<!-- google font -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+	<link href="http://radixtouch.in/templates/admin/redstar/source/assets/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- bootstrap -->
+
+	<link href="http://radixtouch.in/templates/admin/redstar/source/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<!-- data tables -->
+	<link href="http://radixtouch.in/templates/admin/redstar/source/assets/datatables/plugins/bootstrap/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+	<!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="http://radixtouch.in/templates/admin/redstar/source/assets/material/material.min.css">
+	<link rel="stylesheet" href="css/material_style.css">
+	<!-- Theme Styles -->
+	<link href="css/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="css/theme-color.css" rel="stylesheet" type="text/css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<!-- END HEAD -->
+
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-dark dark-sidebar-color logo-dark dark-theme">
+	<div class="page-wrapper">
+		<!-- start header -->
+		<div class="page-header navbar navbar-fixed-top">
+			<div class="page-header-inner ">
+				<!-- logo start -->
+				<div class="page-logo">
+					<a href="index.html">
+						<span class="logo-icon fa fa-stethoscope fa-rotate-45"></span>
+						<span class="logo-default">MedId</span> </a>
+				</div>
+				<!-- logo end -->
+
+				<!-- start mobile menu -->
+				<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+					<span></span>
+				</a>
+				<!-- end mobile menu -->
+				<!-- start header menu -->
+				<div class="top-menu">
+					<ul class="nav navbar-nav pull-right">
+						<!-- start language menu -->
+
+						<!-- end message dropdown -->
+						<!-- start manage user dropdown -->
+						<li class="dropdown dropdown-user">
+							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+								<img alt="" class="img-circle " src="img/dp.jpg" />
+								<span class="username username-hide-on-mobile"> Dhruv </span>
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-default">
+								<li>
+									<a href="user_profile.html">
+										 Profile </a>
+								</li>
+								<li>
+									<a href="#">
+										Settings
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										 Help
+									</a>
+								</li>
+								<li class="divider"> </li>
+								<li>
+									<a href="lock_screen.html">
+									 Lock
+									</a>
+								</li>
+								<li>
+									<a href="login.html">
+										Log Out </a>
+								</li>
+							</ul>
+						</li>
+						<!-- end manage user dropdown -->
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end header -->
+		<!-- start color quick setting -->
+
+		<!-- end color quick setting -->
+		<!-- start page container -->
+		<div class="page-container">
+			<!-- start sidebar menu -->
+			<div class="sidebar-container">
+				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" class="left-sidemenu">
+						<ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false" data-auto-scroll="true"
+						 data-slide-speed="200" style="padding-top: 20px">
+							<li class="sidebar-toggler-wrapper hide">
+								<div class="sidebar-toggler">
+									<span></span>
+								</div>
+							</li>
+							<li class="sidebar-user-panel">
+								<div class="user-panel">
+									<div class="pull-left image">
+										<img src="img/dp.jpg" class="img-circle user-img-circle" alt="User Image" />
+									</div>
+									<div class="pull-left info">
+										<p> Dr.Dhruv Jain</p>
+
+									</div>
+								</div>
+							</li>
+
+							<li class="nav-item active open ">
+								<a href="#" class="nav-link nav-toggle"><i class="material-icons">assignment</i>
+									<span class="title">Appointment</span><span class="selected"></span>
+									<span class="arrow open"></span></a>
+								<ul class="sub-menu">
+
+									<li class="nav-item active open ">
+										<a href="view_appointment.html" class="nav-link "> <span class="title">Appointments</span>
+											<span class="selected"></span>
+										</a>
+									</li>
+								</ul>
+							</li>
+
+								</ul>
+							</li>
+
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end sidebar menu -->
+			<!-- start page content -->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+					<div class="page-bar">
+						<div class="page-title-breadcrumb">
+							<div class=" pull-left">
+								<div class="page-title">Appointment List</div>
+							</div>
+							<ol class="breadcrumb page-breadcrumb pull-right">
+
+								<li class="active">Home</li>
+							</ol>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card card-topline-red">
+
+								<div class="card-body ">
+
+									<div class="table-scrollable">
+										<table class="table table-hover table-checkable order-column full-width" id="example4">
+											<thead>
+												<tr>
+													<th></th>
+													<th> Name </th>
+													<th> Email </th>
+													<th> Date Of Appointment </th>
+													<th> From </th>
+													<th> To </th>
+													<th> Mobile </th>
+													<th> Consulting Doctor </th>
+													<th>Injury/Condition</th>
+													<th> Action </th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr class="odd gradeX">
+													<td class="patient-img">
+														<img src="img/user/user6.jpg" alt="">
+													</td>
+													<td>Jenish shah</td>
+													<td><a href="mailto:shuxer@gmail.com">
+															jenish@gmail.com </a></td>
+													<td class="center">12 Jan 2012</td>
+													<td class="center">07:15</td>
+													<td class="center">07:30</td>
+													<td><a href="tel:444543564">
+															444543564 </a></td>
+													<td>Dr.Rajesh</td>
+													<td>Fever</td>
+													<td>
+														<a href="edit_appointment.html" class="btn btn-primary btn-xs">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<a href="javascript().html" class="btn btn-danger btn-xs">
+															<i class="fa fa-trash-o "></i>
+														</a>
+													</td>
+												</tr>
+												<tr class="odd gradeX">
+													<td class="patient-img">
+														<img src="img/user/user1.jpg" alt="">
+													</td>
+													<td>Pankaj Singh</td>
+													<td><a href="mailto:shuxer@gmail.com">
+															jenish@gmail.com </a></td>
+													<td class="center">12 Jan 2012</td>
+													<td class="center">07:45</td>
+													<td class="center">08:00</td>
+													<td><a href="tel:444543564">
+															444543564 </a></td>
+													<td>Dr.Sarah Smith</td>
+													<td>Malaria</td>
+													<td>
+														<a href="edit_appointment.html" class="btn btn-primary btn-xs">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<a href="javasctipt().html" class="btn btn-danger btn-xs">
+															<i class="fa fa-trash-o "></i>
+														</a>
+													</td>
+												</tr>
+												<tr class="odd gradeX">
+													<td class="patient-img">
+														<img src="img/user/user2.jpg" alt="">
+													</td>
+													<td>Jenish shah</td>
+													<td><a href="mailto:shuxer@gmail.com">
+															jenish@gmail.com </a></td>
+													<td class="center">12 Jan 2012</td>
+													<td class="center">08:15</td>
+													<td class="center">08:30</td>
+													<td><a href="tel:444543564">
+															444543564 </a></td>
+													<td>Dr.Rajesh</td>
+													<td>Fever</td>
+													<td>
+														<a href="edit_appointment.html" class="btn btn-primary btn-xs">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<a href="javascript().html" class="btn btn-danger btn-xs">
+															<i class="fa fa-trash-o "></i>
+														</a>
+													</td>
+												</tr>
+												<tr class="odd gradeX">
+													<td class="patient-img">
+														<img src="img/user/user3.jpg" alt="">
+													</td>
+													<td>Pankaj Singh</td>
+													<td><a href="mailto:shuxer@gmail.com">
+															jenish@gmail.com </a></td>
+													<td class="center">12 Jan 2012</td>
+													<td class="center">08:45</td>
+													<td class="center">08:00</td>
+													<td><a href="tel:444543564">
+															444543564 </a></td>
+													<td>Dr.Sarah Smith</td>
+													<td>Malaria</td>
+													<td>
+														<a href="edit_appointment.html" class="btn btn-primary btn-xs">
+															<i class="fa fa-pencil"></i>
+														</a>
+														<a href="javascript().html" class="btn btn-danger btn-xs">
+															<i class="fa fa-trash-o "></i>
+														</a>
+													</td>
+												</tr>
+
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end page content -->
+			<!-- start chat sidebar -->
+
+			<!-- end chat sidebar -->
+		</div>
+		<!-- end page container -->
+		<!-- start footer -->
+		<div class="page-footer">
+			<div class="page-footer-inner"> 2019 &copy; Product By
+				<a href="mailto:redstartheme@gmail.com" target="_top" class="makerCss">The BlackBox</a>
+			</div>
+			<div class="scroll-to-top">
+				<i class="icon-arrow-up"></i>
+			</div>
+		</div>
+		<!-- end footer -->
+	</div>
+	<!-- start js include path -->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/jquery.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/popper/popper.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/jquery.blockui.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/jquery.slimscroll.js"></script>
+	<!-- bootstrap -->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+	<!-- data tables -->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/datatables/jquery.dataTables.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/datatables/plugins/bootstrap/dataTables.bootstrap4.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/table_data.js"></script>
+	<!-- Common js-->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/app.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/layout.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/theme-color.js"></script>
+	<!-- Material -->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/material/material.min.js"></script>
+	<!-- end js include path -->
+</body>
+
+
+<!-- Mirrored from radixtouch.in/templates/admin/redstar/source/dark/view_appointment.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Oct 2019 18:01:30 GMT -->
+</html>

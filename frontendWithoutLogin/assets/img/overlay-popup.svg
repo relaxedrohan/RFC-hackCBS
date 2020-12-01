@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="1000px" viewBox="0 0 1000 1000" zoomAndPan="disable" opacity="0.4" >
+    <style type="text/css"><![CDATA[
+		line {
+			stroke: rgba(255,255,255,0.45);
+			stroke-width: 0.5px;
+		}
+		
+		polygon.one {
+			fill: rgba(255,255,255,0.27);
+		}
+		
+		polygon.two {
+			fill: rgba(255,255,255,0.19);
+		}
+		
+		polygon.three {
+			fill: rgba(255,255,255,0.095);
+		}
+      
+    polygon.four {
+			fill: rgba(255,255,255,0.06);
+		}
+      
+    polygon.five {
+			fill: rgba(255,255,255,0.03);
+		}
+		
+    ]]></style>
+	<polygon class="one" points="-400,0 250,1000 0,1000 0,0" />
+	<polygon class="two" points="-100,0 600,1000 0,1000 0,0" />
+	<polygon class="three" points="200,0 950,1000 0,1000 0,0" />
+  <polygon class="four" points="500,0 1300,1000 0,1000 0,0" />
+  <polygon class="five" points="800,0 1750,1000 0,1000 0,0" />
+	<line x1="-400" y1="0" x2="250" y2="1000" />
+	<line x1="-100" y1="0" x2="600" y2="1000" />
+	<line x1="200" y1="0" x2="950" y2="1000" />
+  <line x1="500" y1="0" x2="1300" y2="1000" />
+  <line x1="800" y1="0" x2="1750" y2="1000" />
+  
+</svg>

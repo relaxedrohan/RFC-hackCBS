@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+
+
+<!-- Mirrored from radixtouch.in/templates/admin/redstar/source/dark/patient_profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Oct 2019 18:01:30 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="Responsive Admin Template" />
+	<meta name="author" content="RedstarHospital" />
+	<title>MedId</title>
+	<!-- google font -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+	<link href="http://radixtouch.in/templates/admin/redstar/source/assets/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!--bootstrap -->
+
+	<link href="http://radixtouch.in/templates/admin/redstar/source/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="http://radixtouch.in/templates/admin/redstar/source/assets/material/material.min.css">
+	<link rel="stylesheet" href="css/material_style.css">
+	<!-- Theme Styles -->
+	<link href="css/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+	<link href="css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="css/theme-color.css" rel="stylesheet" type="text/css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<!-- END HEAD -->
+
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-dark dark-sidebar-color logo-dark dark-theme">
+	<div class="page-wrapper">
+		<!-- start header -->
+		<div class="page-header navbar navbar-fixed-top">
+			<div class="page-header-inner ">
+				<!-- logo start -->
+				<div class="page-logo">
+					<a href="index.html">
+						<span class="logo-icon fa fa-stethoscope fa-rotate-45"></span>
+						<span class="logo-default">MedId</span> </a>
+				</div>
+				<!-- logo end -->
+
+				<!-- start mobile menu -->
+				<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+					<span></span>
+				</a>
+				<!-- end mobile menu -->
+				<!-- start header menu -->
+				<div class="top-menu">
+					<ul class="nav navbar-nav pull-right">
+						<!-- start language menu -->
+
+						<!-- end message dropdown -->
+						<!-- start manage user dropdown -->
+						<li class="dropdown dropdown-user">
+							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+								<img alt="" class="img-circle " src="img/dp.jpg" />
+								<span class="username username-hide-on-mobile"> Mohan </span>
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-default">
+								<li>
+									<a href="user_profile.html">
+										 Profile </a>
+								</li>
+								<li>
+									<a href="#">
+										Settings
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										 Help
+									</a>
+								</li>
+								<li class="divider"> </li>
+								<li>
+									<a href="lock_screen.html">
+									 Lock
+									</a>
+								</li>
+								<li>
+									<a href="login.html">
+										Log Out </a>
+								</li>
+							</ul>
+						</li>
+						<!-- end manage user dropdown -->
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end header -->
+		<!-- start color quick setting -->
+
+		<!-- end color quick setting -->
+		<!-- start page container -->
+		<div class="page-container">
+			<!-- start sidebar menu -->
+			<div class="sidebar-container">
+				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" class="left-sidemenu">
+						<ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false" data-auto-scroll="true"
+						 data-slide-speed="200" style="padding-top: 20px">
+							<li class="sidebar-toggler-wrapper hide">
+								<div class="sidebar-toggler">
+									<span></span>
+								</div>
+							</li>
+							<li class="sidebar-user-panel">
+								<div class="user-panel">
+									<div class="pull-left image">
+										<img src="img/dp.jpg" class="img-circle user-img-circle" alt="User Image" />
+									</div>
+									<div class="pull-left info">
+										<p> Dr.Mohan Kukreja</p>
+
+									</div>
+								</div>
+							</li>
+
+							<li class="nav-item active open ">
+								<a href="#" class="nav-link nav-toggle"><i class="material-icons">assignment</i>
+									<span class="title">Appointment</span><span class="selected"></span>
+									<span class="arrow open"></span></a>
+								<ul class="sub-menu">
+
+									<li class="nav-item active open ">
+										<a href="view_appointment.html" class="nav-link "> <span class="title">Appointments</span>
+											<span class="selected"></span>
+										</a>
+									</li>
+								</ul>
+							</li>
+
+								</ul>
+							</li>
+
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end sidebar menu -->
+			<!-- start page content -->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+					<div class="page-bar">
+						<div class="page-title-breadcrumb">
+							<div class=" pull-left">
+								<div class="page-title">Patient Profile</div>
+							</div>
+							<ol class="breadcrumb page-breadcrumb pull-right">
+								<li><i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+								</li>
+
+								<li class="active">Patient Profile</li>
+							</ol>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-xs-12">
+							<div class="white-box">
+								<div class=" cardbox patient-profile">
+									<img src="img/patient1.jpg" class="img-responsive" alt="">
+								</div>
+								<div class="postbox">
+									<div class="header">
+										<h4 class="font-bold">About Patient</h4>
+									</div>
+									<div class="body">
+										<div class="user-btm-box">
+											<!-- .row -->
+											<div class="row text-center m-t-10">
+												<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 b-r" id="namep"><strong>Name</strong>
+													
+												</div>
+												<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 b-r" id="bloodgroup">
+													
+												</div>
+												<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12" id="email"><strong>Email</strong>
+													
+												</div>
+												<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12" id="phone">
+												</div>
+												<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12" id="gender">
+													
+												</div>
+												
+											</div>
+											<!-- /.row -->
+											<hr>
+											<!-- .row -->
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8 col-xs-12">
+							<div class="cardbox">
+								<div class="body">
+									<div class="mypost-list">
+
+
+										<div class="post-box">
+											<h4 class="font-bold">General Stats</h4>
+
+											<hr>
+											<h5>Heart Beat <span class="pull-right">85</span></h5>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40"
+												 aria-valuemin="0" aria-valuemax="100" style="width: 40%"> <span class="sr-only">40% Complete (success)</span>
+												</div>
+											</div>
+											<h5>Blood Pressure<span class="pull-right">93</span></h5>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="90"
+												 aria-valuemin="0" aria-valuemax="100" style="width:90%;"> <span class="sr-only">50% Complete</span> </div>
+											</div>
+											<h5>Sugar<span class="pull-right">55</span></h5>
+											<div class="progress">
+												<div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuenow="50"
+												 aria-valuemin="0" aria-valuemax="100" style="width:50%;"> <span class="sr-only">50% Complete</span> </div>
+											</div>
+											<h5>Haemoglobin<span class="pull-right">78%</span></h5>
+											<div class="progress">
+												<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70"
+												 aria-valuemin="0" aria-valuemax="100" style="width:70%;"> <span class="sr-only">50% Complete</span> </div>
+											</div>
+										</div>
+									</div>
+									<hr>
+									<div class="row">
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="card card-topline-purple">
+														<div class="card-head">
+															<br>
+															<button type="button" class="btn blue btn-outline m-b-10">Make Prescription</button>
+															<br>
+															<header>Past Visit History</header>
+														</div>
+														<div class="card-body ">
+															<div class="table-responsive">
+																<table class="table table-striped custom-table table-hover">
+																	<thead>
+																		<tr>
+																			<th>Date</th>
+																			<th>Doctor</th>
+																			<th>Treatment</th>
+																			<th>Chart</th>
+																			<th>Charges($)</th>
+																			<th>Action</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td>11/05/2017</td>
+																			<td>Dr.Rajesh</td>
+																			<td>Check up</td>
+																			<td>
+																				<div id="sparkline"></div>
+																			</td>
+																			<td>14$</td>
+																			<td><a href="javascript:void(0)" class="" data-toggle="tooltip" title="Edit">
+																					<i class="fa fa-check"></i></a>
+																				<a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip">
+																					<i class="fa fa-trash"></i></a>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>13/05/2017</td>
+																			<td>Dr.Rajesh</td>
+																			<td>X-Ray</td>
+																			<td>
+																				<div id="sparkline3"></div>
+																			</td>
+																			<td>16$</td>
+																			<td><a href="javascript:void(0)" class="" data-toggle="tooltip" title="Edit">
+																					<i class="fa fa-check"></i></a>
+																				<a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip">
+																					<i class="fa fa-trash"></i></a>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>13/05/2017</td>
+																			<td>Dr.Rajesh</td>
+																			<td>Blood Test</td>
+																			<td>
+																				<div id="sparkline1"></div>
+																			</td>
+																			<td>24$</td>
+																			<td><a href="javascript:void(0)" class="" data-toggle="tooltip" title="Edit">
+																					<i class="fa fa-check"></i></a>
+																				<a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip">
+																					<i class="fa fa-trash"></i></a>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>14/05/2017</td>
+																			<td>Dr.Rajesh</td>
+																			<td>Admit</td>
+																			<td>
+																				<div id="sparkline2"></div>
+																			</td>
+																			<td>14$</td>
+																			<td><a href="javascript:void(0)" class="" data-toggle="tooltip" title="Edit">
+																					<i class="fa fa-check"></i></a>
+																				<a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip">
+																					<i class="fa fa-trash"></i></a>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>15/05/2017</td>
+																			<td>Dr.Rajesh</td>
+																			<td>Operation</td>
+																			<td>
+																				<div id="sparkline4"></div>
+																			</td>
+																			<td>14$</td>
+																			<td><a href="javascript:void(0)" class="" data-toggle="tooltip" title="Edit">
+																					<i class="fa fa-check"></i></a>
+																				<a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip">
+																					<i class="fa fa-trash"></i></a>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>18/05/2017</td>
+																			<td>Dr.Rajesh</td>
+																			<td>Discharge</td>
+																			<td>
+																				<div id="sparkline5"></div>
+																			</td>
+																			<td>14$</td>
+																			<td><a href="javascript:void(0)" class="" data-toggle="tooltip" title="Edit">
+																					<i class="fa fa-check"></i></a>
+																				<a href="javascript:void(0)" class="text-inverse" title="Delete" data-toggle="tooltip">
+																					<i class="fa fa-trash"></i></a>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end page content -->
+				<!-- start chat sidebar -->
+
+			<!-- end page container -->
+			<!-- start footer -->
+			<div class="page-footer">
+				<div class="page-footer-inner"> 2019 &copy; Product By
+					<a href="mailto:redstartheme@gmail.com" target="_top" class="makerCss">The BlackBox</a>
+				</div>
+				<div class="scroll-to-top">
+					<i class="icon-arrow-up"></i>
+				</div>
+			</div>
+			<!-- end footer -->
+		</div>
+	</div>
+	<!-- start js include path -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+	 var dat;
+	
+	 $(document).ready(function(){
+		$.get("http://localhost:3000/data",function(data){
+		 dat=data;
+		 console.log(dat);
+		 $('#namep').html('<strong>Name</strong><p>'+dat.firstname+' '+dat.lastname+'</p');
+		 $('#email').html('<strong>Email</strong><p>'+dat.email+'</p');
+			$('#bloodgroup').html('<strong>BloodGroup</strong><p>'+dat.bloodgroup+'</p');
+			$('#gender').html('<strong>Gender</strong><p>'+dat.gender+'</p');
+			$('#phone').html('<strong>Phone No.</strong><p>'+dat.phone+'</p');		
+
+	 });
+
+
+});
+	</script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/jquery.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/popper/popper.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/jquery.blockui.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/jquery.slimscroll.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/jquery.sparkline.min.js"></script>
+	<!-- bootstrap -->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+	<!-- Common js-->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/app.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/profile.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/layout.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/theme-color.js"></script>
+	<!-- Material -->
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/material/material.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/float/jquery.flot.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/float/ecg-data.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/float/jquery.flot.resize.min.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/sparkline/jquery.sparkline.js"></script>
+	<script src="http://radixtouch.in/templates/admin/redstar/source/assets/sparkline/sparkline-data.js"></script>
+	<!-- end js include path -->
+</body>
+
+
+<!-- Mirrored from radixtouch.in/templates/admin/redstar/source/dark/patient_profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Oct 2019 18:01:32 GMT -->
+</html>
